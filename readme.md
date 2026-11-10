@@ -324,16 +324,16 @@ E:\mpv-lazy\mpv-lazy\
 
 https://github.com/dyphire/mpv-scripts/blob/main/sub_export.lua
 
-https://github.com/Tony15246/uosc_danmaku（原始上游 不是luoxue03/mpv-lazy-2026-custom的uosc_danmaku）
+https://github.com/Tony15246/uosc_danmaku （原始上游 不是luoxue03/mpv-lazy-2026-custom的uosc_danmaku）
 
-https://github.com/WuLinLee/my_uosc_danmaku（我自己替换luoxue03/mpv-lazy-2026-custom的弹幕增强扩展）
+https://github.com/WuLinLee/my_uosc_danmaku （我自己替换luoxue03/mpv-lazy-2026-custom的弹幕增强扩展）
 
-https://github.com/luoxue03/mpv-lazy-2026-custom（最重要）
+https://github.com/luoxue03/mpv-lazy-2026-custom （最重要）
 
-https://github.com/luoxue03/external-player（非原始上游）
+https://github.com/luoxue03/external-player （非原始上游）
 
 
-https://github.com/WuLinLee/danmaku-anywhere（和WuLinLee/my_uosc_danmaku有一点关系 与mpv无关）
+https://github.com/WuLinLee/danmaku-anywhere （和WuLinLee/my_uosc_danmaku有一点关系 与mpv无关）
 
 https://github.com/naganohara-yoshino/flash-font
 
