@@ -332,6 +332,8 @@ https://github.com/luoxue03/mpv-lazy-2026-custom （最重要）
 
 https://github.com/luoxue03/external-player （非原始上游）
 
+[external player原始上游](https://github.com/LuckyPuppy514/external-player)
+
 
 https://github.com/WuLinLee/danmaku-anywhere （和WuLinLee/my_uosc_danmaku有一点关系 与mpv无关）
 
