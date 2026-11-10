@@ -66,7 +66,6 @@ script-message-to sub_export export-selected-subtitles
 在 `input_uosc.conf` 末尾添加：
 
 ```ini
-
 #Ctrl+x add sub-pos -1       # 字幕下移（备用，未启用）
 #Ctrl+z add sub-pos +1       # 字幕上移（备用，未启用）
 #Shift+x add sub-scale -0.1  # 字幕缩小（备用，未启用）
@@ -280,28 +279,34 @@ script-opts-append = auto_load_fonts-compatible_dir=~~/.fonts
 # External Player 配置
 
 ## 1. 装 Tampermonkey
+
 浏览器扩展装 Tampermonkey。
 
 ## 2. 装脚本
+
 - 打开 `E:\mpv-lazy\mpv-lazy\external_player.js`
 - 全选复制
 - Tampermonkey → 添加新脚本 → 粘贴 → 保存
 
 ## 3. 注册协议
+
 - 管理员运行 `E:\mpv-lazy\mpv-lazy\url-scheme-handler.exe`
 - 点 `+ Add to Registry`
 - 点 `+`，名称填 `MPV`，路径选 `mpv.exe`
 - 保存
 
 ## 4. 验证
+
 刷新 B站/YouTube，左下角出现面板，点播放。
 
 
 
 ## watch_later
+
 路径：`E:\mpv-lazy\mpv-lazy\portable_config\_cache\watch_later`
 
 删除里面的文件会丢失：
+
 - 播放进度
 - 音轨选择
 - 视频轨选择
@@ -311,5 +316,24 @@ script-opts-append = auto_load_fonts-compatible_dir=~~/.fonts
 ## uosc_danmaku 弹幕增强扩展 2026.10.12
 
 ## 安装位置
+
 将 [WuLinLee/my_uosc_danmaku](https://github.com/WuLinLee/my_uosc_danmaku)内的 portable_config 文件夹解压覆盖到：
 E:\mpv-lazy\mpv-lazy\
+
+## 相关链接
+
+https://github.com/dyphire/mpv-scripts/blob/main/sub_export.lua
+
+https://github.com/Tony15246/uosc_danmaku（原始上游 不是luoxue03/mpv-lazy-2026-custom的uosc_danmaku）
+
+https://github.com/WuLinLee/my_uosc_danmaku（我自己替换luoxue03/mpv-lazy-2026-custom的弹幕增强扩展）
+
+https://github.com/luoxue03/mpv-lazy-2026-custom（最重要）
+
+https://github.com/luoxue03/external-player（非原始上游）
+
+
+https://github.com/WuLinLee/danmaku-anywhere（和WuLinLee/my_uosc_danmaku有一点关系 与mpv无关）
+
+https://github.com/naganohara-yoshino/flash-font
+
